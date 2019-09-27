@@ -2,7 +2,9 @@ package com.rc.blog.dto.response;
 
 public enum ResponseCode {
 
-    SUCCESS_RSP(200, "You are using Spring Blog system!");
+    SUCCESS_RSP(200, "You are using Spring Blog system!"),
+    UPDATE_ARTICLE_SUCCESS_RSP(200, "The article update successfully!"),
+    ARTICLE_NOT_FOUND(404, "The article does not exist!!");
 
     private Integer code;
 
